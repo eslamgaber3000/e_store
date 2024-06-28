@@ -32,41 +32,41 @@ create a new database and add the database credentials to your ``` .env ``` file
 10 .credentials to access the admin panel (email:``` ali@a.com```, password: ```12345678 ```)
 #### Authintication(Register , Login and Rest password)
 <div>
-   <img src="https://github.com/eslamgaber3000/Ecommerce/assets/117257216/3f097b51-3183-4d25-a3af-b314647d31c8" width="32%" >
-   <img src="https://github.com/eslamgaber3000/Ecommerce/assets/117257216/3420cd88-0375-4127-b0ec-4bc3444cdb73" width="32%" >
-   <img src="https://github.com/eslamgaber3000/Ecommerce/assets/117257216/1b698a71-014d-4ec4-a39f-e5f36f39505c" width="32%" >
+   <img src="https://github.com/eslamgaber3000/e_store/assets/117257216/ef3d4db4-ee17-4f4d-b6f6-f4314f5773da" width="32%" >
+   <img src="https://github.com/eslamgaber3000/e_store/assets/117257216/af5267ec-31a5-4fcb-bb44-1e8e1aeb5bdd" width="32%" >
+   <img src="https://github.com/eslamgaber3000/e_store/assets/117257216/34a73fd2-a0ee-4dcc-a848-9b469d7ab0f5" width="32%" >
 </div>
 
 #### Admin (show All products , and show one)
 <div>
-   <img src="https://github.com/eslamgaber3000/Ecommerce/assets/117257216/80e52bb4-fea8-4918-bd82-ca136444c1d6" width="49%" >
-   <img src="https://github.com/eslamgaber3000/Ecommerce/assets/117257216/fe441f2b-13a9-4ef3-8f55-8fd468054277" width="49%" >
+   <img src="https://github.com/eslamgaber3000/e_store/assets/117257216/247d54cf-6e33-4594-971c-64aca59ca44c" width="49%" >
+   <img src="https://github.com/eslamgaber3000/e_store/assets/117257216/a81f6555-aa83-4e77-91d1-7a02310bc9b1" width="49%" >
 </div>
 
 #### Admin (add product ,Add Category)
 <div>
-   <img src="https://github.com/eslamgaber3000/Ecommerce/assets/117257216/8878d6a6-8f43-45df-b9d8-b45c37a45631" width="49%" >
-   <img src="https://github.com/eslamgaber3000/Ecommerce/assets/117257216/f7e9c749-f4cc-4532-ad88-74ccfb2e5d91" width="49%" >
+   <img src="https://github.com/eslamgaber3000/e_store/assets/117257216/f23766e2-dcbe-42e4-9d70-078d17051c30" width="49%" >
+   <img src="https://github.com/eslamgaber3000/e_store/assets/117257216/728e2307-511d-43f9-8045-30d097d6ef8d" width="49%" >
 </div>
 
 #### Admin update
- <img src="https://github.com/eslamgaber3000/Ecommerce/assets/117257216/4af1d9f0-6c5a-4386-b733-8fc4a5841329" width="50%" >
+ <img src="https://github.com/eslamgaber3000/e_store/assets/117257216/927a7034-e3af-4c87-93bb-d1ffe04db53d" width="50%" >
  
 #### localization (arabic ,English)
 <div>
-   <img src="https://github.com/eslamgaber3000/Ecommerce/assets/117257216/658422aa-4baf-4322-bcb5-b4cdb9ca7324" width="45%" >
-   <img src="https://github.com/eslamgaber3000/Ecommerce/assets/117257216/5dec91bd-8a06-47ba-9521-695ca68a19de" width="45%" >
+   <img src="https://github.com/eslamgaber3000/e_store/assets/117257216/6cf1a719-28fc-4c26-b02a-5594e4c8afe8" width="45%" >
+   <img src="https://github.com/eslamgaber3000/e_store/assets/117257216/cfba812e-a42f-4561-b1f1-f8bdec430d6d" width="45%" >
 </div>
 
 #### User (All product ,show one)
 <div>
-   <img src="https://github.com/eslamgaber3000/Ecommerce/assets/117257216/7dc4a51b-f83d-4d6b-b40a-38887cd25c17" width="49%" >
-   <img src="https://github.com/eslamgaber3000/Ecommerce/assets/117257216/ab83708e-40db-4729-a54a-5ec51cc07164" width="49%" >
+   <img src="https://github.com/eslamgaber3000/e_store/assets/117257216/242ef2d1-7561-4af8-ac27-4771397d9fa9" width="49%" >
+   <img src="https://github.com/eslamgaber3000/e_store/assets/117257216/747414a7-3833-40a0-afa6-a55e4474fb73" width="49%" >
 </div>
 
 #### User (add to cart , make order)
 <div>
-   <img src="https://github.com/eslamgaber3000/Ecommerce/assets/117257216/48d96265-30c5-4612-9eb3-0ed047419dfe" width="49%" >
-   <img src="https://github.com/eslamgaber3000/Ecommerce/assets/117257216/13408f93-beb4-4bc4-98db-a020700b26b6" width="49%" >
+   <img src="https://github.com/eslamgaber3000/e_store/assets/117257216/4ba7e561-b936-4166-b219-7c0da27fdcf8" width="49%" >
+   <img src="https://github.com/eslamgaber3000/e_store/assets/117257216/c69f8928-de0c-4247-9fb9-c5e44e96c6bc" width="49%" >
 </div>
   
