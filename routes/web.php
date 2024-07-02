@@ -112,6 +112,9 @@ Route::controller(ClientController::class)->group(function(){
     Route::get('myCart','myCart');
     Route::post('OrderAllCart','OrderAllCart');
     Route::post('orderONe','orderOne');
+
+    //send sms by VONAGE
+    Route::get('sms','sendMessage');
 });
 
 Route::get('aboutUs/',function(){

@@ -170,5 +170,11 @@ public function addToCart($id,Request $request){
     
       return redirect(url('home'))->with('success','order made successfully');
   }
+
+
+  //send message method
+  public function sendMessage(){
+    
+  }
 }
 // 
