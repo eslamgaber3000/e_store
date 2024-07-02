@@ -18,6 +18,7 @@ class ApiAuthController extends Controller
 
             'name' => 'required|string|max:255',
             'email' => 'email|required|string|unique:users,email',
+           
             'password' => 'confirmed|required|min:8'
         ]);
         if ($validator->fails()) {
