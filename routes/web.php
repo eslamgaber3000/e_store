@@ -30,12 +30,18 @@ Route::get('verification/verify',[]);
 Route::controller(HomeController::class)->group(function(){
 
     Route::get('verification/verify','verificationV')->name('verification.verify');
+
+    Route::get('email/verify','emailVerify')->name('verification.notice');
+
+    //redirect after login
+    Route::get('redirect','redirect');
+
+    Route::get('showUsers','showUsers')->name('showUsers');
+        //send sms by VONAGE
+     Route::get('sms/{id}','sendMessage');
 });
-Route::get('email/verify', [HomeController::class,'emailVerify'])->name('verification.notice');
 
 
-//redirect after login
-Route::get('redirect',[HomeController::class,'redirect']);
 
 
 
@@ -113,8 +119,7 @@ Route::controller(ClientController::class)->group(function(){
     Route::post('OrderAllCart','OrderAllCart');
     Route::post('orderONe','orderOne');
 
-    //send sms by VONAGE
-    Route::get('sms','sendMessage');
+
 });
 
 Route::get('aboutUs/',function(){

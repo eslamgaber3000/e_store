@@ -101,30 +101,30 @@
             <span class="count bg-danger"></span>
           </a>
           <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
-            <h6 class="p-3 mb-0">Notifications</h6>
+            <h6 class="p-3 mb-0">send message</h6>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item preview-item">
+            <a class="dropdown-item preview-item" href="{{route("showUsers")}}">
               <div class="preview-thumbnail">
                 <div class="preview-icon bg-dark rounded-circle">
-                  <i class="mdi mdi-calendar text-success"></i>
+                  <i class="mdi mdi-message text-success"></i>
                 </div>
               </div>
               <div class="preview-item-content">
-                <p class="preview-subject mb-1">Event today</p>
-                <p class="text-muted ellipsis mb-0"> Just a reminder that you have an event today </p>
-              </div>
+                <p class="preview-subject mb-1">send message </p>
+                <p class="text-muted ellipsis mb-0"> Just click here to choose youser</p>
+              </div>  
             </a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item preview-item">
+            {{-- <a class="dropdown-item preview-item">
               <div class="preview-thumbnail">
                 <div class="preview-icon bg-dark rounded-circle">
                   <i class="mdi mdi-settings text-danger"></i>
-                </div>
-              </div>
+                </div> --}}
+              {{-- </div>
               <div class="preview-item-content">
                 <p class="preview-subject mb-1">Settings</p>
                 <p class="text-muted ellipsis mb-0"> Update dashboard </p>
-              </div>
+              </div> --}}
             </a>
             <div class="dropdown-divider"></div>
             {{-- <a class="dropdown-item preview-item">
