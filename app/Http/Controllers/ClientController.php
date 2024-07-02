@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use Vonage\Client;
 use App\Models\Order;
-use App\Models\OrderDetails;
 use App\Models\Product;
+use App\Models\OrderDetails;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Vonage\Client\Credentials\Basic;
 
 class ClientController extends Controller
 {
@@ -174,7 +176,20 @@ public function addToCart($id,Request $request){
 
   //send message method
   public function sendMessage(){
-    
+    $basic  = new Basic("6d9f76f1", "qGTTjNCSTcBiDNZ8");
+    $client = new Client($basic);
+
+    $response = $client->sms()->send(
+      new \Vonage\SMS\Message\SMS("201016403402", 'E-store', 'A text message sent using the Nexmo SMS API')
+  );
+  
+  $message = $response->current();
+  
+  if ($message->getStatus() == 0) {
+      echo "The message was sent successfully\n";
+  } else {
+      echo "The message failed with status: " . $message->getStatus() . "\n";
+  }
   }
 }
 // 
